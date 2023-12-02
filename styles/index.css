@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* navigation stylization */
 
 nav {
@@ -13,13 +17,13 @@ nav {
     height: 90px;
     background-color: #604829;
     padding: 0 5%;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
 }
 
 nav .content__container {
-    width: 1200px;
+    width: 1400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,3 +56,29 @@ nav .menu__container a:hover {
     
 }
 /* navigation stylization */
+
+/* header stylization */
+header {
+    min-height: 100vh;
+    background-image: url('/images/parallax-imagem1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    width: 100%;
+    max-width: 1400px;
+    font-size: 100px;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight:lighter;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+/* header stylization */
