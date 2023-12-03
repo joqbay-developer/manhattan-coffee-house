@@ -17,7 +17,7 @@ nav {
     height: 90px;
     background-color: #604829;
     padding: 0 5%;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
 }
@@ -59,7 +59,7 @@ nav .menu__container a:hover {
 
 /* header stylization */
 header {
-    min-height: 100vh;
+    min-height: calc(100vh - 90px);
     background-image: url('/images/parallax-imagem1.png');
     background-repeat: no-repeat;
     background-size:cover;
@@ -86,8 +86,14 @@ header h1 {
 
 /* information section stylization */
 .information {
+    min-height: calc(100vh - 90px);
     width: 100%;
     text-align: center;
+}
+
+.faixa {
+    height: 90px;
+    background-color:#666;
 }
 
 .text {
@@ -100,7 +106,7 @@ header h1 {
     text-transform: uppercase;
     color: #c4a47c;
     letter-spacing: 2px;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .text p {
