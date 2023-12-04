@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fffff3;
+}
+
 img {
     max-width: 100%;
 }
@@ -14,7 +18,7 @@ nav {
     display: flex;
     justify-content: center ;
     width: 100%;
-    height: 90px;
+    height: 60px;
     background-color: #604829;
     padding: 0 5%;
     position: sticky;
@@ -31,12 +35,12 @@ nav .content__container {
 }
 
 nav .logo__container a img {
-    width: 70px;
+    width: 50px;
 }
 
 nav .menu__container a {
     display: inline-block;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Oswald', sans-serif;
     color: #c4a47c;
     margin-left: 35px;
@@ -59,7 +63,7 @@ nav .menu__container a:hover {
 
 /* header stylization */
 header {
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 60px);
     background-image: url('/images/parallax-imagem1.png');
     background-repeat: no-repeat;
     background-size:cover;
@@ -86,14 +90,16 @@ header h1 {
 
 /* information section stylization */
 .information {
-    min-height: calc(100vh - 90px);
+    /* min-height: calc(100vh - 90px); */
     width: 100%;
     text-align: center;
 }
 
 .faixa {
-    height: 90px;
-    background-color:#666;
+    padding-top: 70px;
+}
+.faixa img {
+    width: 90px;
 }
 
 .text {
@@ -101,13 +107,16 @@ header h1 {
     margin: 0 auto;
 }
 
+
+
 .text h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #c4a47c;
     letter-spacing: 2px;
-    padding: 50px 0;
+    padding: 50px;
 }
+
 
 .text p {
     font-size: 18px;
