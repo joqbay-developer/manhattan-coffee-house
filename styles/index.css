@@ -242,7 +242,7 @@ header h1 {
 
 /* schedules section stylization */
 .schedules {
-    min-height: 100vh;
+    min-height: 85vh;
     background-image: url('/images/cafeteria.jpg');
     background-repeat: no-repeat;
     background-size:cover;
@@ -332,3 +332,40 @@ header h1 {
 
 
 /* schedules section stylization */
+
+/* footer section stylization */
+footer {
+    position: relative;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+    min-height: calc(25vh - 97px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+footer strong {
+    color: #c4a47c;
+}
+
+.seta {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+
+    background-image: url("/images/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
+/* footer section stylization */
