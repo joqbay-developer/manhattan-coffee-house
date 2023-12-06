@@ -306,7 +306,6 @@ header h1 {
     transform: translateX(-50%);
     top: 50%;
     z-index: 1;
-    opacity: 0.5;
 
 }
 
@@ -352,6 +351,7 @@ footer {
 
 footer strong {
     color: #c4a47c;
+    font-style: italic;
 }
 
 .seta {
