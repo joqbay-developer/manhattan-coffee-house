@@ -23,7 +23,7 @@
 ## Descrição
 
 O objetivo desse projeto é um website para a apresentação de uma cafeteria, com a descrição, horário de atendimento, e endereço com localização no google maps.
-Nesse site foi implementado conhecimentos obtidos no curso fullstack JS da Devmedia, cujo módulo atual é front-end (HTML & CSS). 
+Nesse site foi implementado conhecimentos obtidos no curso fullstack JS da Devmedia, cujo módulo atual é front-end (HTML & CSS). Portanto, esse é um dos vários projetos que ainda serão construídos no decorrer do curso. 
 
 **Ainda tem mais alguns projetos para mergulharmos no JS...** 😉
 
@@ -43,9 +43,11 @@ Para isso, os seguinte recursos do css foram utilizados:
 + Display Flex
 + além de espaçamentos, tipografia e margens
 
-> Como um plus, eu adicionei um pouco de JavaScript para implementar o efeito scroll suave ao usuário clicar no link para navegar entre seções.
+"Sobre o ```display: flex```, ainda não estamos nesse tópico específico, mas como se faz necessário, esse recurso já está sendo implementado.
+
+> Como um plus no que diz respeito à programação, eu adicionei um pouco de JavaScript para implementar o efeito scroll suave ao usuário clicar no link para navegar entre seções.
 > O foco do curso ainda não é JS, mas eu me senti na obrigação de entregar algo a mais... 😁
 
 Abaixo segue um gif para demontrar melhor como está o projeto
 
-![](/assets-for-github/manhattan-coffee-house-video.gif)
+![](/assets-for-github/project-gif.gif)
