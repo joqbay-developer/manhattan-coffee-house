@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,7 +8,42 @@
 
 /* global variables */
 :root {
-    
+    --1px: 0.0625rem;
+    --2px: 0.125rem;
+    --3px: 0.1875rem;
+    --4px: 0.25rem;
+    --5px: 0.3125rem;
+    --6px: 0.375rem;
+    --7px: 0.4375rem;
+    --8px: 0.5rem;
+    --9px: 0.5625rem;
+    --10px: 0.625rem;
+    --11px: 0.6875rem;
+    --12px: 0.75rem;
+    --13px: 0.8125rem;
+    --14px: 0.875rem;
+    --15px: 0.9375rem;
+    --16px: 1rem;
+    --17px: 1.0625rem;
+    --18px: 1.125rem;
+    --20px: 1.25rem;
+    --21px: 1.3125rem;
+    --22px: 1.375rem;
+    --24px: 1.5rem;
+    --28px: 1.75rem;
+    --32px: 2rem;
+    --35px: 2.1875rem;
+    --50px: 3.125rem;
+    --60px: 3.75rem;
+    --70px: 4.375rem;
+    --80px: 5rem;
+    --97px: 6.0625rem;
+    --100px: 6.25rem;
+    --450px: 28.125rem;
+    --500px: 31.25rem;
+    --900px: 56.25rem;
+    --1400px: 87.5rem;
+
 }
 /* global variables */
 
@@ -34,7 +71,7 @@ nav {
 }
 
 nav .content__container {
-    width: 87.5rem;
+    width: var(--1400px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,13 +84,13 @@ nav .logo__container a img {
 
 nav .menu__container a {
     display: inline-block;
-    font-size: 0.875rem;
+    font-size: var(--14px);
     font-family: 'Oswald', sans-serif;
     color: #c4a47c;
-    margin-left: 35px;
+    margin-left: var(--35px);
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 0.125rem;
+    letter-spacing: var(--2px);
     font-weight: 700;
     transition: 0.5s;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
@@ -83,7 +120,7 @@ header {
 
 header h1 {
     width: 100%;
-    max-width: 87.5rem;
+    max-width: var(--1400px);
     font-size: 6.25rem;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
@@ -110,14 +147,14 @@ header h1 {
  }
 
 .text__container {
-    max-width: 87.5rem;
+    max-width: var(--1400px);
     margin: 0 auto;
 }
 
 
 
 .text__container h2 {
-    font-size: 1.75rem;
+    font-size: var(--28px);
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #c4a47c;
@@ -193,10 +230,10 @@ header h1 {
 .iframe__container iframe {
     width: 100%;
     max-width: 1400px;
-    height: 450px;
+    height: var(--450px);
     margin: 0 auto;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--5px);
     box-shadow: 0 0 8px #ACACAC;
     opacity: 0.9;
 }
@@ -205,33 +242,33 @@ header h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 24px;
+    font-size: var(--24px);
     width: 100%;
-    max-width: 500px;
+    max-width: var(--500px);
     margin: 0 auto;
     text-align: center;
     color: #fff;
     background-color: #604829;
-    padding: 10px 18px;
-    border-radius: 5px;
-    margin-top: 80px;
+    padding: var(--10px) var(--18px);
+    border-radius: var(--5px);
+    margin-top: var(--80px);
 }
 
 .contact__container__text {
     width: 100%;
-    max-width: 500px;
+    max-width: var(--500px);
     margin: 0 auto;
     text-align: center;
     background-color: #604829;
-    padding: 10px;
-    border-radius: 5px;
+    padding: var(--10px);
+    border-radius: var(--5px);
 }
 
 .contact__container__text p {
-    font-size: 16px;
+    font-size: var(--16px);
     font-family: 'Oswald';
     color: #fff;
-    line-height: 35px;
+    line-height: var(--35px);
     letter-spacing: 1px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -267,13 +304,13 @@ header h1 {
 
 .schedules h2 {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: var(--2px);
     margin-top: 5%;
-    font-size: 24px;
+    font-size: var(--24px);
     font-weight: 700;
     text-align: center;
     color: #fff;
-    border-radius: 5px;
+    border-radius: var(--5px);
     font-family: 'Oswald', sans-serif;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -288,7 +325,7 @@ header h1 {
     color: #fff;
     list-style: none;
     width: 100%;
-    max-width: 900px;
+    max-width: var(--900px);
     margin: 0 auto;
     position: relative;
     margin-top: -5%;
@@ -299,19 +336,19 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: var(--10px) 0;
 }
 
 .list li h3 {
-    font-size: 18px;
+    font-size: var(--18px);
     font-family: 'Oswald';
     color: #fff;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
+    letter-spacing: var(--5px);
+    margin-bottom: var(--20px);
 }
 
 .list li div { /* tarja */
-    width: 500px;
+    width: var(--500px);
     height: 1px;
     background-color: #acacac;
     position: absolute;
@@ -326,8 +363,8 @@ header h1 {
 
 .list li p, .texto__marrom {
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 14px;
+    letter-spacing: var(--5px);
+    font-size: var(--14px);
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
 }
@@ -350,10 +387,10 @@ footer {
     position: relative;
     background-color: #000000;
     color: #fff;
-    padding: 20px 0;
+    padding: var(--20px) 0;
     text-align: center;
-    line-height: 35px;
-    letter-spacing: 2px;
+    line-height: var(--35px);
+    letter-spacing: var(--2px);
     min-height: calc(25vh - 97px);
     display: flex;
     align-items: center;
@@ -369,16 +406,16 @@ footer strong {
 
 .seta {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: var(--60px);
+    height: var(--60px);
     position: absolute;
     bottom: 100px;
-    right: 50px;
+    right: var(--50px);
 
     background-image: url("/images/seta-para-cima.png");
     background-position: center;
     background-size: cover;
     background-color: #c4a47c;
-    border-radius: 4px;
+    border-radius: var(--4px);
 }
 /* footer section stylization */
